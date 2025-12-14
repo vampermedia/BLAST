@@ -1,0 +1,27 @@
+{
+  "name": "fcm-backend",
+  "version": "1.0.0",
+  "description": "Firebase Cloud Messaging backend for SMS automation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "fcm",
+    "firebase",
+    "push-notifications",
+    "sms"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "events": "^3.3.0",
+    "express": "^4.21.2",
+    "firebase-admin": "^12.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
